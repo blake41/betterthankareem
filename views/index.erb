@@ -1,4 +1,30 @@
 
-<div>
-  <iframe class="centered" width="640" height="480" src="//www.youtube.com/embed/RhA0PCeIch4" frameborder="0" allowfullscreen></iframe>
+
+<div id="myCarousel" class="carousel">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="active item">
+      <div>Do you know this man?</div>
+      <img src="img/kareem.jpg">
+    </div>
+    <div class="item">
+      <div>Has he ever said outlandish things to you like the stuff in this movie?</div>
+      <iframe class="centered" width="640" height="480" src="//www.youtube.com/embed/wKcmSzm1r6A" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item">
+      <div>The question is, what's better than Kareem?</div>
+    </div>
+    <div class="item">
+      <div>You decide</div>
+      <iframe class="centered" width="640" height="480" src="//www.youtube.com/embed/RhA0PCeIch4" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+  <!-- Carousel nav -->
+  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 </div>
+
+<script type="text/javascript">
+
+$('.carousel').carousel();
+</script>

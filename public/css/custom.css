@@ -57,3 +57,13 @@ pre {
 #github {
   z-index: 2;
 }
+
+.carousel .item > iframe {
+display: block;
+line-height: 1;
+}
+
+.carousel .item > div {
+display: block;
+line-height: 1;
+}
