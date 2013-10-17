@@ -14,7 +14,7 @@
 h1, h2 {
   font-family: Oswald, Helvetica, Arial, sans-serif;
   text-align: center;
-  font-size: 60px;
+  font-size: 90px;
   line-height: 1.5em;
   color: white;
 }
@@ -30,4 +30,9 @@ body {
 
 .item {
   overflow: visible;
+}
+
+.controls a {
+  position: absolute;
+  top: 300px;
 }
