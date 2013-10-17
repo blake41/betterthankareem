@@ -1,7 +1,33 @@
-.centered {
-  position: absolute;
-  top: 50%;
+.carousel, .carousel-inner {
+  height: 100%;
+  overflow: visible;
+}
+
+.carousel-inner .item .centered{
+  position: relative;
+  top: 300px;
   left: 50%;
   margin-top: -240px;
   margin-left: -320px;
+}
+
+h1, h2 {
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.5em;
+  color: white;
+}
+
+.titleonly {
+  position: relative;
+  top: 300px;
+}
+
+body {
+  background-color: black;
+}
+
+.item {
+  overflow: visible;
 }
