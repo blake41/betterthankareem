@@ -11,22 +11,19 @@
   margin-left: -320px;
 }
 
-.centered {
-  margin: auto auto;
+h1, h2 {
+  line-height: 1.5em;
+  font-family: Oswald, Helvetica, Arial, sans-serif;
 }
 
 h1{
-  font-family: Oswald, Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 90px;
-  line-height: 1.5em;
   color: white;
 }
 
 h2 {
-  font-family: Oswald, Helvetica, Arial, sans-serif;
   font-size: 60px; 
-  line-height: 1.5em;
 }
 
 .titles {
@@ -35,16 +32,8 @@ h2 {
   left: 5%;
 }
 
-.titleonly {
-
-}
-
 body {
   background-color: black;
-}
-
-.item {
-  overflow: visible;
 }
 
 .controls a {
