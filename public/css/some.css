@@ -11,7 +11,11 @@
   margin-left: -320px;
 }
 
-h1, h2 {
+.centered {
+  margin: auto auto;
+}
+
+h1{
   font-family: Oswald, Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 90px;
@@ -19,9 +23,20 @@ h1, h2 {
   color: white;
 }
 
-.titleonly {
+h2 {
+  font-family: Oswald, Helvetica, Arial, sans-serif;
+  font-size: 60px; 
+  line-height: 1.5em;
+}
+
+.titles {
   position: relative;
   top: 300px;
+  left: 5%;
+}
+
+.titleonly {
+
 }
 
 body {
@@ -33,6 +48,6 @@ body {
 }
 
 .controls a {
-  position: absolute;
-  top: 300px;
+  position: fixed;
+  top: 50%;
 }
